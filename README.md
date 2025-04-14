@@ -43,10 +43,10 @@ Run the main script to predict house prices:
 python house_price_prediction.py
 ```
 ## Project Workflow
-Data Preprocessing:
-Missing values were handled using imputation (filling with the median).
-Only numerical features were used after dropping categorical ones.
-Feature scaling was applied to standardize the data.
+#### Data Preprocessing:
+-Missing values were handled using imputation (filling with the median).
+-Only numerical features were used after dropping categorical ones.
+-Feature scaling was applied to standardize the data.
 Model:
 Linear Regression was used for training the model.
 Model performance was evaluated using Mean Squared Error (MSE), Mean Absolute Error (MAE), and R² Score.
